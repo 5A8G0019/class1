@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="745.6">
+    <Grid>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="10,40,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="252" Width="349"/>
+        <Button x:Name="PrintButton1" Content="PrintButton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="333" Margin="364,133,0,0" Height="63" Click="PrintButton1_Click"/>
+    </Grid>
+</Window>
